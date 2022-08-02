@@ -22,7 +22,7 @@ public class Car {
     //creating setters
     public void setMake(String make){ this.make = make; }
     public void setPrice(double price){ this.price = price; }
-    public void setMake(int year){ this.year = year; }
+    public void setYear(int year){ this.year = year; }
     public void setColor(String color){ this.color = color; }
 
 

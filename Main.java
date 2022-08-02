@@ -1,15 +1,18 @@
 public class Main{
     public static void main(String[] args) {
 
-        Car nissan = new Car("Nisaan", 20000.50, 2003, "green");
+        Car nissan = new Car("Nisaan", 27000.50, 2014, "green");
         Car dodge = new Car("Dodge", 31550.50, 2023, "orange");
         // nissan.make="Nissan";  // not needed because of constructor above
         // nissan.price=2000;
         // nissan.year=1998;
         // nissan.color="blue";
 
-        nissan.setColor("Lightning White");
-        dodge.setColor("Florescent Green");
+        nissan.setColor("Electric Blue");
+        dodge.setColor("Translucent Gray");
+
+        nissan.setYear(2015);
+        dodge.setYear(2015);
 
         //sale reduces both vehicles original value by 50%
         nissan.setPrice(nissan.getPrice() /2);
